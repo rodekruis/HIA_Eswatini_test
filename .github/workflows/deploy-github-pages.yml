@@ -136,9 +136,9 @@ jobs:
 
     steps:
       - name: Verify ENV configuration
-        if: env.REGIONS_SHEET_IDS == '1l43SgRymj3EPBOd-wp3mWrfcqDZlKbuAy7HQGo8YnT8'
+        if: env.REGIONS_SHEET_IDS == 1l43SgRymj3EPBOd-wp3mWrfcqDZlKbuAy7HQGo8YnT8
         run: |
-          echo "⚠️ Set the appropriate Google Spreadsheet ID in \`REGIONS_SHEET_IDS\`, instead of the default/placeholder-value: \`1l43SgRymj3EPBOd-wp3mWrfcqDZlKbuAy7HQGo8YnT8\`" >> $GITHUB_STEP_SUMMARY
+          echo "⚠️ Set the appropriate Google Spreadsheet ID in \`REGIONS_SHEET_IDS\`, instead of the default/placeholder-value: \`xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\`" >> $GITHUB_STEP_SUMMARY
           echo "Edit [\`.github/workflows/deploy-github-pages.yml\`](../../edit/main/.github/workflows/deploy-github-pages.yml) to fix." >> $GITHUB_STEP_SUMMARY
           echo "::error file=.github/workflows/deploy-github-pages.yml::Please change the ENV configuration to real-world values" && exit 1
 
