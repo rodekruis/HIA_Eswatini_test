@@ -98,7 +98,7 @@ env:
     Information
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    '1l43SgRymj3EPBOd-wp3mWrfcqDZlKbuAy7HQGo8YnT8'
+    1l43SgRymj3EPBOd-wp3mWrfcqDZlKbuAy7HQGo8YnT8
 
 # #############################################################################
 #
@@ -136,7 +136,7 @@ jobs:
 
     steps:
       - name: Verify ENV configuration
-        if: env.REGIONS_SHEET_IDS == '1l43SgRymj3EPBOd-wp3mWrfcqDZlKbuAy7HQGo8YnT8'
+        if: env.REGIONS_SHEET_IDS == 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         run: |
           echo "⚠️ Set the appropriate Google Spreadsheet ID in \`REGIONS_SHEET_IDS\`, instead of the default/placeholder-value: \`xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\`" >> $GITHUB_STEP_SUMMARY
           echo "Edit [\`.github/workflows/deploy-github-pages.yml\`](../../edit/main/.github/workflows/deploy-github-pages.yml) to fix." >> $GITHUB_STEP_SUMMARY
