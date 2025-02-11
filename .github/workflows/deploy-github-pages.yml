@@ -92,13 +92,17 @@ env:
   #
   # The URL-part(s) to identify the region
   REGIONS: >-
-    info
+    info,
+    info2
   # The readable label(s) on the link to the region-page
   REGIONS_LABELS: >-
-    Information
+    Information,
+    info test
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    1l43SgRymj3EPBOd-wp3mWrfcqDZlKbuAy7HQGo8YnT8
+    1l43SgRymj3EPBOd-wp3mWrfcqDZlKbuAy7HQGo8YnT8,
+    1lo3rTxI9Zv3cXbEV_D8cVZGwYgdjIO1zBTcr26v0ctI
+    
 
 # #############################################################################
 #
