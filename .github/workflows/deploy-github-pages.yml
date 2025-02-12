@@ -40,11 +40,12 @@ env:
   # ###########################################################################
   #
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
-  TXT_APP_NAME: 'test'
+  TXT_APP_NAME: 'BERCS - Info'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
-  TXT_APP_LOGO_URL: 'test'
+  TXT_APP_LOGO_URL: 'https://github.com/IFRCGo/logos/blob/master/national-societies/SWZ_Baphalali-Swaziland-Red-Cross-Society/Swaziland%20Red%20Cross%20Society.svg'
   # The first heading, (only) visible on the main-page
-  TXT_MAIN_PAGE_HEADER: 'test'
+  TXT_MAIN_PAGE_HEADER: 'This web app is made to give helpful information (HIA) about frequently asked questions (FAQ).
+Please select your FAQ below:'
   # The (optional) introduction text, (only) visible on the main-page.
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_MAIN_PAGE_INTRO: >-
@@ -93,15 +94,22 @@ env:
   # The URL-part(s) to identify the region
   REGIONS: >-
     info,
-    info2
+    dm,
+    health,
+    first-aid
   # The readable label(s) on the link to the region-page
   REGIONS_LABELS: >-
-    Information,
-    info test
+    General Information,
+    Disaster Management,
+    Health Services,
+    First Aid
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    1l43SgRymj3EPBOd-wp3mWrfcqDZlKbuAy7HQGo8YnT8,
-    1lo3rTxI9Zv3cXbEV_D8cVZGwYgdjIO1zBTcr26v0ctI
+    19d5ZiVAci43r34K5elFS7QkJ7q6eFhDQMjfBMLtrJMw,
+    1YMa1hlhQCKroCtQm2bJMqNDZ2Jf8u_vfERyP-PTAK8o,
+    1PTt7X2JLGAnIztTa65yZZrWuaiYzenhhfJpqmtU2bcE,
+    1q6Es8dfGuVanIMPS_QoWjnGbJ2WxXv_m6oTICm9SgxI
+    
     
 
 # #############################################################################
