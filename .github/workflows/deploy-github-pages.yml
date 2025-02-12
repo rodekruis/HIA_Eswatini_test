@@ -40,16 +40,15 @@ env:
   # ###########################################################################
   #
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
-  TXT_APP_NAME: 'FAQ'
+  TXT_APP_NAME: 'Red Cross FAQ'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
-  TXT_APP_LOGO_URL: 'https://raw.githubusercontent.com/IFRCGo/logos/6c169a947ee86afad3ce7966b5e8c63b96699445/national-societies/SWZ_Baphalali-Swaziland-Red-Cross-Society/Swaziland%20Red%20Cross%20Society.svg'
+  TXT_APP_LOGO_URL: 'https://redcross.org.sz/wp-content/uploads/2024/07/iso2_sz.jpg'
   # The first heading, (only) visible on the main-page
-  TXT_MAIN_PAGE_HEADER: 'This web app is made to give helpful information (HIA) about frequently asked questions (FAQ). Please select your FAQ below:'
+  TXT_MAIN_PAGE_HEADER: 'Hi! You can edit me'
   # The (optional) introduction text, (only) visible on the main-page.
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_MAIN_PAGE_INTRO: >-
-    \n Hi!
-    \n This is a test, you can change this 
+    \n This web app is made to give helpful information (HIA) about frequently asked questions (FAQ). Please select your FAQ below
   #
   # An (optional) notice on the top of the screen, can be overwritten on sub-pages per-region by each region's sheet.
   TXT_MAIN_PAGE_NOTICE: 'Hi, welcome on the main page of the Helpful-Information App of Baphalali Eswatini Red Cross!'
