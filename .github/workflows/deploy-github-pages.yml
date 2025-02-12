@@ -40,25 +40,25 @@ env:
   # ###########################################################################
   #
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
-  TXT_APP_NAME: 'BERCS - Info'
+  TXT_APP_NAME: 'FAQ'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
-  TXT_APP_LOGO_URL: 'https://github.com/IFRCGo/logos/blob/master/national-societies/SWZ_Baphalali-Swaziland-Red-Cross-Society/Swaziland%20Red%20Cross%20Society.svg'
+  TXT_APP_LOGO_URL: 'https://raw.githubusercontent.com/IFRCGo/logos/6c169a947ee86afad3ce7966b5e8c63b96699445/national-societies/SWZ_Baphalali-Swaziland-Red-Cross-Society/Swaziland%20Red%20Cross%20Society.svg'
   # The first heading, (only) visible on the main-page
-  TXT_MAIN_PAGE_HEADER: 'This web app is made to give helpful information (HIA) about frequently asked questions (FAQ).
-Please select your FAQ below:'
+  TXT_MAIN_PAGE_HEADER: 'This web app is made to give helpful information (HIA) about frequently asked questions (FAQ). Please select your FAQ below:'
   # The (optional) introduction text, (only) visible on the main-page.
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_MAIN_PAGE_INTRO: >-
-    \n
-    \n
+    \n Hi!
+    \n This is a test, you can change this 
   #
   # An (optional) notice on the top of the screen, can be overwritten on sub-pages per-region by each region's sheet.
-  TXT_MAIN_PAGE_NOTICE: 'test'
+  TXT_MAIN_PAGE_NOTICE: 'Hi, welcome on the main page of the Helpful-Information App of Baphalali Eswatini Red Cross!'
   #
   # An (optional) "About"-page
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_PAGE_ABOUT: >-
-    \n
+    \n Also test test
+    \n another one
   #
   # An (optional) "Privacy"-page
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
@@ -68,7 +68,7 @@ Please select your FAQ below:'
   # An (optional) footer at the bottom of the screen, can be overwritten on sub-pages per-region by each region's sheet.
   TXT_MAIN_FOOTER: >-
     **Helpful Information**  \n
-    \n
+    \n For urgent matters, please contact us on ... 
   #
   # Contents of the 'error-page'
   #
