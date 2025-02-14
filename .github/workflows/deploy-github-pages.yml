@@ -40,7 +40,7 @@ env:
   # ###########################################################################
   #
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
-  TXT_APP_NAME: 'Red Cross FAQ'
+  TXT_APP_NAME: 'Baphalali Eswatini Red Cross Society'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
   TXT_APP_LOGO_URL: 'https://redcross.org.sz/wp-content/uploads/2024/07/iso2_sz.jpg'
   # The first heading, (only) visible on the main-page
@@ -66,8 +66,10 @@ env:
   #
   # An (optional) footer at the bottom of the screen, can be overwritten on sub-pages per-region by each region's sheet.
   TXT_MAIN_FOOTER: >-
-    **Helpful Information**  \n
-    \n For urgent matters, please contact us on ... 
+    **Urgent matters?**  \n
+    \n Toll free line: 7602
+    \n Speak out email: speakout@redcross.org.sz
+    \n Link to our website: https://redcross.org.sz/
   #
   # Contents of the 'error-page'
   #
@@ -92,21 +94,21 @@ env:
   #
   # The URL-part(s) to identify the region
   REGIONS: >-
-    info,
     dm,
-    health,
-    first-aid
+    hs,
+    ca,
+    sg
   # The readable label(s) on the link to the region-page
   REGIONS_LABELS: >-
-    General Information,
-    Disaster Management,
+    Disaster Response/Community programs,
     Health Services,
-    First Aid
+    Community Alert,
+    Safe Guarding
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    19d5ZiVAci43r34K5elFS7QkJ7q6eFhDQMjfBMLtrJMw,
     1YMa1hlhQCKroCtQm2bJMqNDZ2Jf8u_vfERyP-PTAK8o,
     1PTt7X2JLGAnIztTa65yZZrWuaiYzenhhfJpqmtU2bcE,
+    19d5ZiVAci43r34K5elFS7QkJ7q6eFhDQMjfBMLtrJMw,
     1q6Es8dfGuVanIMPS_QoWjnGbJ2WxXv_m6oTICm9SgxI
     
     
